@@ -1,0 +1,35 @@
+Key Features:
+
+Responsive Header with search functionality and user controls
+Collapsible Sidebar with navigation and categories
+Filter Bar for content sorting and filtering
+Video Grid Layout with placeholder cards showing metadata
+Tech Stack Information panel showing the recommended architecture
+
+Architecture Overview:
+Frontend (React + Vite):
+
+Component-based architecture with reusable VideoCard components
+Responsive design using TailwindCSS
+State management for UI interactions
+Apollo Client integration ready for GraphQL queries
+
+Backend Structure:
+
+Node.js with Express server
+Apollo Server for GraphQL API
+JWT-based authentication system
+File upload handling for video content
+
+Database Design (MongoDB):
+
+User collections (profiles, preferences, history)
+Video metadata collections (title, duration, views, categories)
+Content management and moderation systems
+
+Key Components:
+
+VideoCard - Displays video thumbnails with metadata
+Sidebar - Navigation and category filtering
+Header - Search, upload, and user management
+FilterBar - Content discovery and sorting
